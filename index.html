@@ -1,0 +1,227 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Os Peixinhos</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		 <script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----font-Awesome----->
+   		<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+   		<!----font-Awesome----->
+		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+		<!----start-slider-script---->
+			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!----//End-slider-script---->
+			<!---- Slider ------>
+	 <link rel="stylesheet" href="css/slider.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.cslider.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+	<script type="text/javascript">
+			$(function() {
+			
+				$('#da-slider').cslider({
+					autoplay	: true,
+					bgincrement	: 450
+				});
+			
+			});
+		</script>	
+		<script type="text/javascript">
+			$(function() {
+			
+				$('#da-slider1').cslider({
+					autoplay	: true,
+					bgincrement	: 450
+				});
+			
+			});
+		</script>	
+</head>
+	<body>
+		<!-----start-top-header----->
+		<div id="home" class="top-header">
+		<!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			          <img src="images/slide.jpg" alt="" class="background">
+			          <div class="caption text-center">
+			          	<div class="slide-text-info">
+                          <div class="blackbox">
+			          		<h1>N&oacute;s somos Peixinhos</h1>
+                            <h3>A melhor equipa de Counter-Strike: Global Offensive dos oceanos</h3>
+                          </div>
+			          	</div>
+			          </div>
+			        </li>
+			        <li>
+			          <img src="images/slide_rl.jpg" alt="" class="background">
+			          <div class="caption text-center">
+			          	<div class="slide-text-info">
+                          <div class="blackbox">
+			          		<h1>N&oacute;s somos Peixinhos</h1>
+                            <h3>A melhor equipa de Rocket League dos oceanos</h3>
+                          </div>
+			          	</div>
+			          </div>
+			        </li>
+			      </ul>
+			    </div>
+			    <div class="clear"> </div>
+			<!---- //End-slider----->
+		<!-----start-conatiner---->
+		<div class="container">
+			<!-----start-header---->
+			<div class="header">
+				<div class="container">
+				<!----start-top-nav---->
+				 <nav class="top-nav">
+					<ul class="top-nav">
+						<li class="active"><a href="#home" class="scroll">Home</a></li>
+						<li class="page-scroll"><a href="#peixinhos" class="scroll">Os Peixinhos</a></li>
+						<li class="page-scroll"><a href="#quemsomos" class="scroll">Quem somos?</a></li>
+					</ul>
+					<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+				  </nav>
+				
+				<div class="clear"> </div>
+			</div>
+			<!-----//End-header---->
+			</div>
+			<!-----start-top-header----->
+		</div>
+		</div>
+        <!-----start-Share instantly----->
+		<div id="peixinhos" class="Share-instantly">
+			<div class="container">
+				<div class="col-md-2 Share-instantly-left">
+					<span> </span>
+				</div>
+				<div class="col-md-10 Share-instantly-right">
+					<h3>Os peixinhos</h3>
+					<p class="head-para">Os peixinhos são um clã de pro-gaming do melhor que se faz nestes oceanos. Fundados em 2016, os peixinhos surgem da necessidade dos seus membros em causarem o medo aos seus rivais através da utilização de uma tag de equipa. Desde então continuam a ser a pior equipa nos jogos em que participam.</p>				     
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+		<!-----//End-Share instantly----->
+		<!-----start-features----->
+		<div id="quemsomos" class="features text-center">
+			<div class="container">
+				<h2>Quem somos?</h2>
+				<!---- start-features-grids------>
+					<div class="features-grids text-center">
+						<div class="col-md-3 features-grid">
+							<span class="t-icon1"> </span>
+							<h3><a href="https://www.twitter.com/afonsoFGarcia" target="_blank">Afonso Garcia</a></h3>
+							<p>Cromo das bolachas.</p>
+						</div>
+						<div class="col-md-3 features-grid">
+							<span class="t-icon2"> </span>
+							<h3><a href="https://www.twitter.com/0xJoao" target="_blank">João Andrade</a></h3>
+							<p>Gosto de desmontar coisas e às vezes deixo a meio as coisas que estou a</p>
+						</div>
+						<div class="col-md-3 features-grid">
+							<span class="t-icon3"> </span>
+							<h3><a href="https://www.twitter.com/RuiAMGSilva" target="_blank">Rui Silva</a></h3>
+							<p>19. Benfica. Ciências da Comunicação na FCSH/NOVA. Dirigente associativo nas horas não-vagas. Música, cinema e livros. Ocasionalmente, copos. E SLB.</p>
+						</div>
+                        <div class="col-md-3 features-grid">
+							<span class="t-icon4"> </span>
+							<h3><a href="https://www.twitter.com/RodrigoTC_" target="_blank">Rodrigo Carvalho</a></h3>
+							<p>Engenharia Informatica in FCT-UNL. 23.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				<!---- //End-features-grids------>
+			</div>
+		</div>
+		<!-----//End-features----->
+		<!-----start-footer----->
+		<div class="footer">
+			<div class="container">
+				<div class="col-md-7 footer-left">
+					<p>Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<a href="#top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			<!---- start-smoth-scrolling---->
+			<script type="text/javascript">
+				$(function() {
+				  $('a[href*=#]:not([href=#])').click(function() {
+				    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			
+				      var target = $(this.hash);
+				      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				      if (target.length) {
+				        $('html,body').animate({
+				          scrollTop: target.offset().top
+				        }, 1000);
+				        return false;
+				      }
+				    }
+				  });
+					});
+			</script>
+			<!---- //End-smoth-scrolling---->
+		</div>
+		<!-----//End-footer----->
+		<!-----//End-conatiner---->
+	</body>
+</html>
+
