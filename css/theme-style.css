@@ -451,8 +451,9 @@ nav a#pull {
 }
 .Share-instantly-left span{
 	width:350px;
-	height:400px;
+	height:450px;
 	display:block;
+    background:url(../images/share-divice.png) no-repeat 0px 0px;
 }
 .Share-instantly-right h3{
 	color: #FFF;
