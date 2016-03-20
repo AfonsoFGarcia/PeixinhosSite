@@ -409,10 +409,9 @@ nav a#pull {
 	font-size: 3em;
 }
 .features-grid span{
-	width: 231px;
-	height: 231px;
+	width: 230px;
+	height: 230px;
 	display: inline-block;
-	background: url(../images/top-icons.png) no-repeat 0px 0px;
 }
 .features-grid h3 a{
 	color: #707070;
@@ -430,16 +429,16 @@ nav a#pull {
 	margin: 0 auto;
 }
 .features-grid span.t-icon1{
-	background-position: 0px 0px;
+	background: url(../images/img_cherne.png) no-repeat;
 }
 .features-grid span.t-icon2{
-	background-position: -400px 1px;
+	background: url(../images/img_truta.png) no-repeat;
 }
 .features-grid span.t-icon3{
-	background-position: -799px 1px;
+	background: url(../images/img_atum.png) no-repeat;
 }
 .features-grid span.t-icon4{
-    background-position: -400px -239px;
+    background: url(../images/img_salmao.png) no-repeat;
 }
 .features-grids{
 	padding-top:2.5em;
@@ -750,6 +749,11 @@ a.cl-icon8-l span{
 	filter: alpha(opacity=0);
 }
 /*--responsive design--*/
+@media (max-width:991px){
+ .blackbox {
+   visibility: hidden;
+ }
+}
 @media (max-width:1024px){
  .top-nav ul li a {
 	color: #FFF;
@@ -819,13 +823,22 @@ a.cl-icon8-l span{
  .features-grid span {
 	width: 100px;
 	height: 100px;
-	background-size: 446%;
+	background-size: 100px 100px;
  }
  .features-grid span.t-icon1 {
-    background-position: -173px 0px;
+	background-size: 100px 100px;
+    margin-top: 25px;
  }
  .features-grid span.t-icon2 {
-    background-position: -346px 0px;
+	background-size: 100px 100px;
+    margin-top: 25px;
+ }
+ .features-grid span.t-icon3 {
+	background-size: 100px 100px;
+ }
+ .features-grid span.t-icon4 {
+	background-size: 100px 100px;
+    margin-top: 25px;
  }
 .Share-instantly-left span, .feature-right span{
 	background-size:85%;
@@ -834,6 +847,7 @@ a.cl-icon8-l span{
  }
  .Share-instantly-right {
 	margin-top:0em;
+    margin-bottom:5em;
  }
  .download-left a span {
 	background-size:90%;
