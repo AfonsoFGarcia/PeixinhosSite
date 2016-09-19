@@ -409,8 +409,8 @@ nav a#pull {
 	font-size: 3em;
 }
 .features-grid span{
-	width: 230px;
-	height: 230px;
+	width: 154px;
+	height: 154px;
 	display: inline-block;
 }
 .features-grid h3 a{
@@ -439,6 +439,9 @@ nav a#pull {
 }
 .features-grid span.t-icon4{
     background: url(../images/img_salmao.png) no-repeat;
+}
+.features-grid span.t-icon5{
+    background: url(../images/img_merluza.png) no-repeat;
 }
 .features-grids{
 	padding-top:2.5em;
