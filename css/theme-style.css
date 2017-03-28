@@ -430,18 +430,27 @@ nav a#pull {
 }
 .features-grid span.t-icon1{
 	background: url(../images/img_cherne.png) no-repeat;
+	border-radius: 50%;
 }
 .features-grid span.t-icon2{
 	background: url(../images/img_truta.png) no-repeat;
+	border-radius: 50%;
 }
 .features-grid span.t-icon3{
 	background: url(../images/img_atum.png) no-repeat;
+	border-radius: 50%;
 }
 .features-grid span.t-icon4{
     background: url(../images/img_salmao.png) no-repeat;
+	border-radius: 50%;
 }
 .features-grid span.t-icon5{
     background: url(../images/img_merluza.png) no-repeat;
+	border-radius: 50%;
+}
+.features-grid span.t-icon6{
+    background: url(../images/img_comodoro.png) no-repeat;
+	border-radius: 50%;
 }
 .features-grids{
 	padding-top:2.5em;
